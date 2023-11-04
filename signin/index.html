@@ -4,11 +4,40 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-   <link rel="stylesheet" href="style.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/custom.css">
    <title>Book Store</title>
 </head>
 <body>
+   <header class="BsHeader d-flex align-items-center">
+      <div class="BsHeaderCont container-xl d-flex align-items-center">
+         <a href="#" class="BsHeaderTxt">
+            <span>JS BAND STORE / </span>
+            <span>Ilya Lavrentyev</span>
+         </a>
+      </div>
+   </header>
+   <main>
+      <div class="container d-flex align-items-center justify-content-center">
+         <div class="BsSignInWrap">
+            <div class="BsSignInBlock d-flex align-items-center justify-content-center flex-column gap-3">
+               <div class="BsUserPict">
+                  <img src="../images/empty_user.png" alt="Empty User Image">
+               </div>
+               <div class="BsSignInForm d-flex align-items-center justify-content-center flex-column gap-4">
+                  <div class="BsSignInput d-flex align-items-center justify-content-center flex-column">
+                     <label for="user_name">Username</label>
+                     <input type="text" name="user_name" id="user_name" placeholder="type Username">
+                  </div>
+                  <button type="submit">Sign-In</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer>
 
+   </footer>
+   <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
