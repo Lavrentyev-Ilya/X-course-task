@@ -7,8 +7,24 @@ a {
 }
 
 .BsHeader {
+  display: flex;
+  align-items: center;
   border-bottom: 1px solid #cccccc;
-  height: 100px;
+  height: 150px;
+}
+
+.BsHeaderTxt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.BsLogoWrap {
+  width: 200px;
+}
+
+.BsLogoWrap img {
+  width: 100%;
 }
 
 .BsHeaderTxt span {
@@ -49,6 +65,8 @@ main {
   box-shadow: none;
   border: 1px solid #505050;
   font-size: 1.2rem;
+  color: #9A3E27;
+  font-weight: 500;
 }
 .BsSignInput label {
   font-size: 1.4rem;
@@ -61,4 +79,44 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   border-radius: 8px;
+  transition: background-color, color 0.3s;
+}
+.BsSignInForm button:hover {
+  background-color: #505050;
+  color: #ffffff;
+}
+
+.BsUserCartWrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.BsCartBl {
+  width: 50px;
+}
+
+.BsCartBl img {
+  width: 100%;
+}
+
+.BsUserBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.BsUserImgWr {
+  width: 50px;
+}
+.BsUserImgWr img {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .BsHeaderCont {
+    padding: 0px 20px;
+  }
 }/*# sourceMappingURL=custom.css.map */

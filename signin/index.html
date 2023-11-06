@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
    <link rel="stylesheet" href="../css/custom.css">
    <title>Book Store</title>
@@ -12,8 +12,9 @@
    <header class="BsHeader d-flex align-items-center">
       <div class="BsHeaderCont container-xl d-flex align-items-center">
          <a href="#" class="BsHeaderTxt col">
-            <span>JS BAND STORE / </span>
-            <span>Ilya Lavrentyev</span>
+            <div class="BsLogoWrap">
+               <img src="../images/logo.png" alt="Logo">
+            </div>
          </a>
       </div>
    </header>
@@ -27,7 +28,7 @@
                <div class="BsSignInForm d-flex align-items-center justify-content-center flex-column gap-4">
                   <div class="BsSignInput d-flex align-items-center justify-content-center flex-column">
                      <label for="user_name">Username</label>
-                     <input type="text" name="user_name" id="user_name" placeholder="type Username">
+                     <input type="text" name="user_name" id="user_name" placeholder="your name">
                   </div>
                   <button type="submit">Sign-In</button>
                </div>
