@@ -1,0 +1,96 @@
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.BsHeader {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+  height: 150px;
+}
+
+.BsHeaderTxt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.BsLogoWrap {
+  width: 200px;
+}
+
+.BsLogoWrap img {
+  width: 100%;
+}
+
+.BsHeaderTxt span {
+  font-size: 1.5rem;
+  color: #505050;
+  font-weight: 600;
+}
+
+main {
+  padding: 80px 20px;
+}
+
+.BsSignInWrap {
+  width: 350px;
+}
+
+.BsUserPict {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+}
+
+.BsUserPict img {
+  width: 100%;
+}
+
+.BsSignInput,
+.BsSignInForm {
+  width: 100%;
+}
+
+.BsSignInput input {
+  border-radius: 8px;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+  box-shadow: none;
+  border: 1px solid #505050;
+  font-size: 1.2rem;
+  color: #9A3E27;
+  font-weight: 500;
+}
+.BsSignInput label {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.BsSignInForm button {
+  width: 100%;
+  height: 50px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: background-color, color 0.3s;
+}
+.BsSignInForm button:hover {
+  background-color: #505050;
+  color: #ffffff;
+}/*# sourceMappingURL=login.css.map */
