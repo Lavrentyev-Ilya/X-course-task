@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+span.fa-caret-up, span.fa-caret-down {
+  font-family: fontawesome !important;
+}
+
 .BsHeader {
   display: flex;
   align-items: center;
@@ -73,6 +77,10 @@ a {
 
 .bookPageWrap {
   padding: 50px 20px;
+}
+
+.innerBlock {
+  padding: 30px;
 }
 
 @media (max-width: 1200px) {

@@ -6,11 +6,12 @@
    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
    <link rel="stylesheet" href="css/specific-book.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <title>Book Store</title>
 </head>
 <body>
    <header class="BsHeader d-flex align-items-center">
-      <div class="BsHeaderCont container-xl d-flex align-items-center justify-content-between">
+      <div class="BsHeaderCont container-fluid d-flex align-items-center justify-content-between">
          <a href="#" class="BsHeaderTxt col">
             <div class="BsLogoWrap">
                <img src="../images/logo.png" alt="Logo">
@@ -35,7 +36,7 @@
    <main>
       <section>
          <div class="bookPageWrap container-fluid">
-            <div class="row d-flex justify-content-around align-items-center">
+            <div class="row d-flex justify-content-around align-items-start">
                <div class="col-4 wrapBlock">
                   <div class="innerBlock d-flex flex-column">
                      <div class="bookImage">
@@ -49,25 +50,35 @@
                <div class="col-4 wrapBlock">
                   <div class="innerBlock">
                      <div class="bookInfo">
-
+                        <p class="bookName">Angular Up & Running</p>
+                        <p class="bookAuthor">Book Author</p>
+                        <p class="bookLevel">Book Level</p>
+                        <p class="bookTags">Book tags, book tags...</p>
                      </div>
                   </div>
                </div>
                <div class="col-4 wrapBlock">
                   <div class="innerBlock">
-                     <div class="priceWrap">
-                        <div class="price">
-
+                     <div class="priceWrap d-flex flex-column">
+                        <div class="price priceInfoBlocks d-flex justify-content-between">
+                           <div class="priceTxt">Price $</div>
+                           <div class="priceNum">27</div>
                         </div>
-                        <div class="count">
-
+                        <div class="count priceInfoBlocks d-flex justify-content-between">
+                           <div class="countTxt">Count</div>
+                           <div class="countNumBlock d-flex justify-content-around align-items-center">
+                              <div class="countNum">3</div>
+                              <div class="countArrBlock d-flex flex-column align-items-center">
+                                 <div class="countArrow countPlus"><span class="fa-solid fa-caret-up"></span></div>
+                                 <div class="countArrow countMinus"><span class="fa-solid fa-caret-up"></span></div>
+                              </div>
+                           </div>
                         </div>
-                        <div class="total">
-
+                        <div class="total priceInfoBlocks d-flex justify-content-between">
+                           <div class="totalTxt">Total price</div>
+                           <div class="totalNum">51</div>
                         </div>
-                        <div class="addToButton">
-
-                        </div>
+                        <div class="addToButton">Add to cart</div>
                      </div>
                   </div>
                </div>
