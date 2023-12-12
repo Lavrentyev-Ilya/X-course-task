@@ -83,8 +83,17 @@ span.fa-caret-up, span.fa-caret-down {
   padding: 30px;
 }
 
-.bookDescBlock {
+.bookImage {
   border: 1px solid #505050;
+}
+
+.bookdesc {
+  margin-top: 10px;
+}
+
+.priceWrap {
+  border: 2px dashed #505050;
+  padding: 15px;
 }
 
 @media (max-width: 1200px) {
