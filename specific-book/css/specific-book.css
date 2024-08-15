@@ -85,6 +85,10 @@ span.fa-caret-up, span.fa-caret-down {
 
 .bookImage {
   border: 1px solid #505050;
+  width: 100%;
+}
+.bookImage img {
+  width: 100%;
 }
 
 .bookdesc {
@@ -94,6 +98,26 @@ span.fa-caret-up, span.fa-caret-down {
 .priceWrap {
   border: 2px dashed #505050;
   padding: 15px;
+}
+
+.priceWrap {
+  gap: 10px;
+}
+
+.countNumBlock {
+  border: 1px solid #505050;
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+}
+.countNumBlock .countNum {
+  border-right: 1px solid #505050;
+  text-align: center;
+  line-height: 40px;
+}
+
+.countArrow {
+  line-height: 18px;
 }
 
 @media (max-width: 1200px) {
