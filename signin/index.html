@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-   <link rel="stylesheet" href="css/login.css">
-   <title>Book Store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Book Store</title>
 </head>
+
 <body>
-   <header class="BsHeader d-flex align-items-center">
-      <div class="BsHeaderCont container-xl d-flex align-items-center">
-         <a href="#" class="BsHeaderTxt col">
-            <div class="BsLogoWrap">
-               <img src="../images/logo.png" alt="Logo">
+    <header class="BsHeader d-flex align-items-center">
+        <div class="BsHeaderCont container-xl d-flex align-items-center">
+            <a href="#" class="BsHeaderTxt col">
+                <div class="BsLogoWrap">
+                    <img src="../images/logo.png" alt="Logo">
+                </div>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="container d-flex align-items-center justify-content-center">
+            <div class="BsSignInWrap">
+                <div class="BsSignInBlock d-flex align-items-center justify-content-center flex-column gap-3">
+                    <div class="BsUserPict d-flex align-items-center justify-content-center">
+                        <img src="../images/empty_user.png" alt="Empty User Image">
+                    </div>
+                    <div class="BsSignInForm d-flex align-items-center justify-content-center flex-column gap-4">
+                        <div class="BsSignInput d-flex align-items-center justify-content-center flex-column">
+                            <label for="user_name">Username</label>
+                            <input type="text" name="user_name" id="user_name" placeholder="your name">
+                        </div>
+                        <button type="submit">Sign-In</button>
+                    </div>
+                </div>
             </div>
-         </a>
-      </div>
-   </header>
-   <main>
-      <div class="container d-flex align-items-center justify-content-center">
-         <div class="BsSignInWrap">
-            <div class="BsSignInBlock d-flex align-items-center justify-content-center flex-column gap-3">
-               <div class="BsUserPict">
-                  <img src="../images/empty_user.png" alt="Empty User Image">
-               </div>
-               <div class="BsSignInForm d-flex align-items-center justify-content-center flex-column gap-4">
-                  <div class="BsSignInput d-flex align-items-center justify-content-center flex-column">
-                     <label for="user_name">Username</label>
-                     <input type="text" name="user_name" id="user_name" placeholder="your name">
-                  </div>
-                  <button type="submit">Sign-In</button>
-               </div>
-            </div>
-         </div>
-      </div>
-   </main>
-   <footer>
-   </footer>
-   <script src="../bootstrap/js/bootstrap.min.js"></script>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
