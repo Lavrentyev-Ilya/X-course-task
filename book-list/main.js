@@ -1,8 +1,7 @@
-let booList = "";
+let bookList = "";
 async function getBookList() {
     const response = await fetch("/books.json");
-    const booList = await response.json();
-    console.log(booList);
+    const bookList = await response.json();
 }
 
 getBookList();
