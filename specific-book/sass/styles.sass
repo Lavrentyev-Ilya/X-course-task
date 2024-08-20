@@ -60,14 +60,17 @@ span.fa-caret-up, span.fa-caret-down
     padding: 30px
 .bookImage
     border: 1px solid #505050
-    width: 100%
+    width: 80%
+    border-radius: 8px
+    padding: 10px
     img
         width: 100%
 .bookdesc
     margin-top: 10px
 .priceWrap
     border: 2px dashed #505050
-    padding: 15px
+    padding: 20px
+    border-radius: 8px
 
 // Price Block
 .priceWrap
@@ -78,11 +81,15 @@ span.fa-caret-up, span.fa-caret-down
     height: 40px
     border-radius: 8px
     .countNum
-        border-right: 1px solid #505050
+        border: none
         text-align: center
-        line-height: 40px
+        &:focus-visible
+            outline: none
 .countArrow
     line-height: 18px
+    cursor: pointer
+    width: 20px
+    text-align: center
 //Responsive
 @media (max-width: 1200px)
     .BsHeaderCont

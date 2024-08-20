@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/specific-book.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Book Store</title>
 </head>
@@ -39,7 +39,7 @@
         <section>
             <div class="bookPageWrap container-fluid">
                 <div class="row d-flex justify-content-around align-items-start">
-                    <div class="col-4 wrapBlock ">
+                    <div class="col-3 wrapBlock ">
                         <div class="bookDescBlock innerBlock d-flex flex-column align-items-center">
                             <div class="bookImage">
                                 <img src="../images/books/angular_up_and_running.jpg" alt="book">
@@ -70,14 +70,14 @@
                                 <div class="count priceInfoBlocks d-flex justify-content-between">
                                     <div class="countTxt">Count</div>
                                     <div class="countNumBlock row d-flex justify-content-around align-items-center">
-                                        <div class="countNum col-8">3</div>
+                                        <input class="countNum col-8" value="3">
                                         <div class="countArrBlock col-4 d-flex flex-column align-items-center">
-                                            <div class="countArrow countPlus">
+                                            <button class="countArrow countPlus" data-arrow="plus">
                                                 <span class="fa-solid fa-caret-up"></span>
-                                            </div>
-                                            <div class="countArrow countMinus">
+                                            </button>
+                                            <button class="countArrow countMinus" data-arrow="minus">
                                                 <span class="fa-solid fa-caret-down"></span>
-                                            </div>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -96,6 +96,7 @@
     <footer>
     </footer>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../specific-book/main.js"></script>
 </body>
 
 </html>
